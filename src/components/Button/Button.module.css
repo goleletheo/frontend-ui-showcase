@@ -1,0 +1,38 @@
+.button {
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.primary {
+  background: #3b82f6;
+  color: white;
+}
+
+.primary:hover {
+  background: #2563eb;
+}
+
+.secondary {
+  background: #64748b;
+  color: white;
+}
+
+.outline {
+  background: transparent;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+}
+
+.sm { padding: 6px 12px; font-size: 14px; }
+.md { padding: 10px 16px; font-size: 15px; }
+.lg { padding: 12px 24px; font-size: 16px; }
